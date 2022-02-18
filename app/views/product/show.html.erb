@@ -1,0 +1,32 @@
+<div class="page-header">
+  <%= link_to product_index_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Voltar
+  <% end %>
+  <%= link_to edit_product_path(@product), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Editar
+  <% end %>
+  <h1>Mostrar Produto</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Nome:</dt>
+  <dd><%= @product.name %></dd>
+
+  <dt>Descrição:</dt>
+  <dd><%= @product.description %></dd>
+
+  <dt>Quantidade:</dt>
+  <dd><%= @product.amount %></dd>
+
+  <dt>Data vencimento:</dt>
+  <dd><%= @product.due_date %></dd>
+
+  <dt>Valor compra:</dt>
+  <dd><%= @product.value_buy %></dd>
+
+  <dt>Valor venda:</dt>
+  <dd><%= @product.value_sale %></dd>
+
+</dl>
