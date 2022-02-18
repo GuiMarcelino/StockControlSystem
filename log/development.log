@@ -77,3 +77,459 @@ Processing by ClientController#index as HTML
 Completed 200 OK in 3536ms (Views: 3526.0ms | ActiveRecord: 6.3ms)
 
 
+Started GET "/client" for ::1 at 2022-02-18 08:41:00 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 311ms (Views: 301.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 08:41:05 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 08:41:09 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (54.1ms)
+Completed 200 OK in 61ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 08:41:15 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 08:45:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.4ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 419ms (Views: 408.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 08:45:17 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 83.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 08:45:19 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 98ms (Views: 92.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 392ms (Views: 382.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:28 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:30 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 75ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:31 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:37 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:38 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:45:39 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 73ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:19 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:20 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 71ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:28 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:29 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:37 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:43 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:45 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:46 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 89ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:47 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:48 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:49 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:50 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:46:51 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:47:00 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 500ms (Views: 488.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:47:03 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:47:08 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:47:13 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:47:18 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:48:17 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 13:48:23 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (1.8ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 71ms (Views: 59.4ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:48:25 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:48:26 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:50:41 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 13:50:42 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (1.1ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2022-02-18 13:50:52 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for ::1 at 2022-02-18 13:50:53 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/clients"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (4.7ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.3ms)
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.2ms)
+Started GET "/clients" for ::1 at 2022-02-18 13:51:12 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/clients"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.9ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/guilherme/.rvm/gems/ruby-2.7.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+Started GET "/client" for ::1 at 2022-02-18 13:51:20 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 96ms (Views: 94.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/client/new" for ::1 at 2022-02-18 13:53:48 -0300
+Processing by ClientController#new as HTML
+  Rendering client/new.html.erb within layouts/application
+  Rendered client/_form.html.erb (17.5ms)
+  Rendered client/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 71ms (Views: 63.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 13:55:37 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 88ms (Views: 85.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/client/new" for ::1 at 2022-02-18 13:55:43 -0300
+Processing by ClientController#new as HTML
+  Rendering client/new.html.erb within layouts/application
+  Rendered client/_form.html.erb (3.1ms)
+  Rendered client/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/client/new" for ::1 at 2022-02-18 13:58:06 -0300
+Processing by ClientController#new as HTML
+  Rendering client/new.html.erb within layouts/application
+  Rendered client/_form.html.erb (3.6ms)
+  Rendered client/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 91ms (Views: 75.0ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/client" for ::1 at 2022-02-18 14:01:53 -0300
+Processing by ClientController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nMvI+BdhZbsq9Ywfsm0yShb023HhVK+XpMMw96LYpcfhn4rDsWZupXjrpTyfJD6XDWeo4in2ZgJbUhsgHz9h7w==", "client"=>{"name"=>"Guilherme", "email"=>"guilherme_marc@gmail.com", "phone"=>"47998871902"}, "commit"=>"Salvar"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "client" ("name", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Guilherme"], ["email", "guilherme_marc@gmail.com"], ["phone", "47998871902"], ["created_at", "2022-02-18 17:01:53.207408"], ["updated_at", "2022-02-18 17:01:53.207408"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/client/1
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/client/1" for ::1 at 2022-02-18 14:01:53 -0300
+Processing by ClientController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mClient Load (0.9ms)[0m  [1m[34mSELECT  "client".* FROM "client" WHERE "client"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering client/show.html.erb within layouts/application
+  Rendered client/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 77ms (Views: 69.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 14:01:55 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.3ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/client" for ::1 at 2022-02-18 14:02:45 -0300
+Processing by ClientController#index as HTML
+  Rendering client/index.html.erb within layouts/application
+  [1m[36mClient Load (0.2ms)[0m  [1m[34mSELECT "client".* FROM "client"[0m
+  Rendered client/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 77ms (Views: 75.5ms | ActiveRecord: 0.2ms)
+
+
