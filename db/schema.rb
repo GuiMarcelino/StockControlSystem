@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20220218195332) do
     t.datetime "updated_at",  null: false
   end
 
-  create_table "supplier", force: :cascade do |t|
+  create_table "supplieres", force: :cascade do |t|
     t.string   "name"
     t.string   "phone"
     t.string   "email"
