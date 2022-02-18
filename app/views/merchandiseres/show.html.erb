@@ -1,0 +1,26 @@
+<div class="page-header">
+  <%= link_to merchandiseres_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Voltar
+  <% end %>
+  <%= link_to edit_merchandiser_path(@merchandiser), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Editar
+  <% end %>
+  <h1>Mostrar Fornecedor</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Nome:</dt>
+  <dd><%= @merchandiser.name %></dd>
+
+  <dt>Telefone:</dt>
+  <dd><%= @merchandiser.phone %></dd>
+
+  <dt>Email:</dt>
+  <dd><%= @merchandiser.email %></dd>
+
+  <dt>Site:</dt>
+  <dd><%= @merchandiser.site %></dd>
+
+</dl>

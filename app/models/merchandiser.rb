@@ -1,0 +1,2 @@
+class Merchandiser < ApplicationRecord
+end
