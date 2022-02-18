@@ -4,8 +4,6 @@ source 'https://rubygems.org'
 gem 'bootstrap-generators', '~> 3.3.4'
 gem 'will_paginate'
 gem 'record_tag_helper', '~> 1.0'
-gem 'rails-i18n'
-
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
