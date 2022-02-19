@@ -1,0 +1,23 @@
+<div class="page-header">
+  <%= link_to outlay_index_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Voltar
+  <% end %>
+  <%= link_to edit_outlay_path(@outlay), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Editar
+  <% end %>
+  <h1>Mostrar Dispesa</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Nome:</dt>
+  <dd><%= @outlay.name %></dd>
+
+  <dt>Descricao:</dt>
+  <dd><%= @outlay.description %></dd>
+
+  <dt>Valor:</dt>
+  <dd><%= @outlay.value %></dd>
+
+</dl>

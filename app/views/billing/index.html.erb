@@ -1,0 +1,33 @@
+<div class="page-header">
+  <%= link_to new_billing_path, class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-plus"></span>
+    Novo
+  <% end %>
+  <h1>Lista receita</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Name</th>
+            <th>descricao</th>
+            <th>Valor</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @billing) do |billing| %>
+            <td><%= billing.name %></td>
+            <td><%= billing.description %></td>
+            <td><%= billing.value %></td>
+            <td><%= link_to 'Mostrar', billing %></td>
+        <td><%= link_to 'Editar', edit_billing_path(billing) %></td>
+        <td><%= link_to 'Apagar', billing, method: :delete, data: { confirm: 'Confirma?' } %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>

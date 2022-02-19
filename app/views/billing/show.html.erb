@@ -1,0 +1,23 @@
+<div class="page-header">
+  <%= link_to billing_index_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Voltar
+  <% end %>
+  <%= link_to edit_billing_path(@billing), class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-pencil"></span>
+    Editar
+  <% end %>
+  <h1>Mostrar Receitas</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Nome:</dt>
+  <dd><%= @billing.name %></dd>
+
+  <dt>Descricao:</dt>
+  <dd><%= @billing.description %></dd>
+
+  <dt>Valor:</dt>
+  <dd><%= @billing.value %></dd>
+
+</dl>

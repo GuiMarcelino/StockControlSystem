@@ -1,0 +1,33 @@
+<div class="page-header">
+  <%= link_to new_outlay_path, class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-plus"></span>
+    Novo
+  <% end %>
+  <h1>Lista Dispesas</h1>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+            <th>Nome</th>
+            <th>Descricao</th>
+            <th>Valor</th>
+            <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%= content_tag_for(:tr, @outlay) do |outlay| %>
+            <td><%= outlay.name %></td>
+            <td><%= outlay.description %></td>
+            <td><%= outlay.value %></td>
+            <td><%= link_to 'Mostrar', outlay %></td>
+        <td><%= link_to 'Editar', edit_outlay_path(outlay) %></td>
+        <td><%= link_to 'Apagar', outlay, method: :delete, data: { confirm: 'Confirma?' } %></td>
+      <% end %>
+    </tbody>
+  </table>
+</div>

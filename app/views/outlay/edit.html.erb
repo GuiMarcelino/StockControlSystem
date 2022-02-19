@@ -1,0 +1,13 @@
+<div class="page-header">
+  <%= link_to outlay_index_path, class: 'btn btn-default' do %>
+    <span class="glyphicon glyphicon-list-alt"></span>
+    Voltar
+  <% end %>
+  <%= link_to @outlay, class: 'btn btn-primary' do %>
+    <span class="glyphicon glyphicon-info-sign"></span>
+    Mostrar Dispesas
+  <% end %>
+  <h1>Editando dispesa</h1>
+</div>
+
+<%= render 'form' %>

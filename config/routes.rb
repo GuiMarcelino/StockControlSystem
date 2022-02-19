@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :billing
+  resources :outlay
   resources :merchandiseres
   resources :product
   resources :client
