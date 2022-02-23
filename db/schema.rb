@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20220219000013) do
+ActiveRecord::Schema.define(version: 20220219165322) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,6 +40,24 @@ ActiveRecord::Schema.define(version: 20220219000013) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "order_product", force: :cascade do |t|
+    t.integer  "orderes_id"
+    t.integer  "product_id"
+    t.float    "value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["orderes_id"], name: "index_order_product_on_orderes_id", using: :btree
+    t.index ["product_id"], name: "index_order_product_on_product_id", using: :btree
+  end
+
+  create_table "orderes", force: :cascade do |t|
+    t.integer  "client_id"
+    t.float    "value_total"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["client_id"], name: "index_orderes_on_client_id", using: :btree
+  end
+
   create_table "outlay", force: :cascade do |t|
     t.string   "name"
     t.text     "description"
@@ -59,4 +77,7 @@ ActiveRecord::Schema.define(version: 20220219000013) do
     t.datetime "updated_at",  null: false
   end
 
+  add_foreign_key "order_product", "orderes", column: "orderes_id"
+  add_foreign_key "order_product", "product"
+  add_foreign_key "orderes", "client"
 end

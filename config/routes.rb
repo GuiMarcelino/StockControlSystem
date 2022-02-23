@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  resources :orderes do
+    resources :order_product
+  end
   resources :billing
   resources :outlay
   resources :merchandiseres
